@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: #242424;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gameContainer"></div>
+
+    <!-- <img id="result-id" alt="">
+
+    <button id="startRecordButton">Start Record</button>
+    <button id="stopRecordButton">Stop Record</button> -->
+<!-- 
+    <script>
+        const btnStart = document.getElementById('startRecordButton');
+        btnStart.addEventListener('click', () => {
+            startRecording();
+        });
+        const btnStop = document.getElementById('stopRecordButton');
+
+        btnStop.addEventListener('click', () => {
+            stopRecording();
+        });
+
+
+
+        function startRecording() {
+            var canvas = document.querySelector("#gameContainer canvas");
+            // console.log(canvas);
+            const chunks = []; // here we will store our recorded media chunks (Blobs)
+            const stream = canvas?.captureStream(); // grab our canvas MediaStream
+            const rec = new MediaRecorder(stream); // init the recorder
+
+            // every time the recorder has new data, we will store it in our array
+            rec.ondataavailable = e => chunks.push(e.data);
+            // only when the recorder stops, we construct a complete Blob from all the chunks
+            rec.onstop = e => exportVid(new Blob(chunks, { type: 'video/webm' }));
+            rec.start();
+            console.log('started');
+        }
+
+        function stopRecording() {
+            rec.stop();
+            console.log('stoped');
+        }
+
+        function exportVid(blob) {
+            const vid = document.createElement('video');
+            vid.src = URL.createObjectURL(blob);
+            vid.controls = true;
+            document.body.appendChild(vid);
+            const a = document.createElement('a');
+            a.download = 'myvid.webm';
+            a.href = vid.src;
+            a.textContent = 'download the video';
+            document.body.appendChild(a);
+        }
+
+        function anim() {
+            requestAnimationFrame(anim);
+        }
+
+
+        function getCanvasRecording() {
+
+        }
+    </script> -->
+</body>
+
+</html>

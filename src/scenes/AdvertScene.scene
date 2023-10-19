@@ -1,0 +1,135 @@
+{
+    "id": "08227a27-33a0-40fc-aa21-f0d37da0f45a",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "AdvertScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 390,
+        "borderHeight": 220
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "2b963241-314a-4c67-87f0-a4dd4787d214",
+            "label": "flower_background0",
+            "scope": "CLASS",
+            "texture": {
+                "key": "flower-background",
+                "frame": 0
+            },
+            "x": 125,
+            "y": 110,
+            "scaleX": 1.01,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Sprite",
+            "id": "3167ee3c-19d0-4801-b435-607a61c710d1",
+            "label": "nome",
+            "scope": "CLASS",
+            "texture": {
+                "key": "nome - 00",
+                "frame": 0
+            },
+            "x": 123,
+            "y": 65,
+            "scaleX": 0.95,
+            "scaleY": 0.95
+        },
+        {
+            "type": "Image",
+            "id": "f6d6b2ab-3363-43d0-a7c5-20ef3f35aa4c",
+            "label": "beauty_hair",
+            "scope": "CLASS",
+            "texture": {
+                "key": "beauty-hair"
+            },
+            "x": -91,
+            "y": 128
+        },
+        {
+            "type": "Sprite",
+            "id": "249e2900-c0af-47fa-99e5-b54d3691d5d5",
+            "label": "star",
+            "scope": "CLASS",
+            "texture": {
+                "key": "star",
+                "frame": 0
+            },
+            "x": 118,
+            "y": 241
+        },
+        {
+            "type": "Image",
+            "id": "d5e1ae5a-ce13-4038-9e32-ea18e0322661",
+            "label": "home_service",
+            "scope": "CLASS",
+            "texture": {
+                "key": "home-service"
+            },
+            "x": 118,
+            "y": 266
+        },
+        {
+            "type": "Image",
+            "id": "d954a723-169a-4809-bf0b-a5e27eac71a3",
+            "label": "curve",
+            "scope": "CLASS",
+            "texture": {
+                "key": "curve"
+            },
+            "x": 118,
+            "y": 281
+        },
+        {
+            "type": "Image",
+            "id": "4d36eb75-f5b4-4f27-953e-a2458785aa14",
+            "label": "hair_3",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hair-3"
+            },
+            "x": 327,
+            "y": 111,
+            "scaleX": 1.07,
+            "scaleY": 1.07
+        },
+        {
+            "type": "Image",
+            "id": "8841ef0b-35f5-4ded-add5-b8d08a6fbca3",
+            "label": "hair_2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hair-2"
+            },
+            "x": 327,
+            "y": 108,
+            "scaleX": 1.09,
+            "scaleY": 1.09
+        },
+        {
+            "type": "Image",
+            "id": "38219561-b45e-43c6-817b-52205d61014d",
+            "label": "hair_1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hair-1"
+            },
+            "x": 327,
+            "y": 105,
+            "scaleX": 1.09,
+            "scaleY": 1.09
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,477 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/advertAnimations.json",
+                "type": "animation",
+                "key": "advertAnimations"
+            },
+            {
+                "url": "assets/beauty-hair.png",
+                "type": "image",
+                "key": "beauty-hair"
+            },
+            {
+                "url": "assets/curve.png",
+                "type": "image",
+                "key": "curve"
+            },
+            {
+                "url": "assets/background-sprites/flower-background.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 220,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "flower-background"
+            },
+            {
+                "url": "assets/background-sprites/flower-background - 1.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 220,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "flower-background - 1"
+            },
+            {
+                "url": "assets/background-sprites/flower-background - 2.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 220,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "flower-background - 2"
+            },
+            {
+                "url": "assets/background-sprites/flower-background - 3.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 220,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "flower-background - 3"
+            },
+            {
+                "url": "assets/background-sprites/flower-background - 4.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 220,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "flower-background - 4"
+            },
+            {
+                "url": "assets/hair-1.png",
+                "type": "image",
+                "key": "hair-1"
+            },
+            {
+                "url": "assets/hair-2.png",
+                "type": "image",
+                "key": "hair-2"
+            },
+            {
+                "url": "assets/hair-3.png",
+                "type": "image",
+                "key": "hair-3"
+            },
+            {
+                "url": "assets/home-service.png",
+                "type": "image",
+                "key": "home-service"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 00.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 00"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 01.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 01"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 02.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 02"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 03.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 03"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 04.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 04"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 05.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 05"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 06.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 06"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 07.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 07"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 08.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 08"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 09.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 09"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 10.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 10"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 11.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 11"
+            },
+            {
+                "url": "assets/name-animation-sprites/nome - 12.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome - 12"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome00.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome00"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome01.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome01"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome02.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome02"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome03.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome03"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome04.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome04"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome05.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome05"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome06.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome06"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome07.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome07"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome08.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome08"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome09.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome09"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome10.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome10"
+            },
+            {
+                "url": "assets/full-name-animation-sprites/nome11.png",
+                "frameConfig": {
+                    "frameWidth": 250,
+                    "frameHeight": 125,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "nome11"
+            },
+            {
+                "url": "assets/stars-sprites/star.png",
+                "frameConfig": {
+                    "frameWidth": 115,
+                    "frameHeight": 25,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "star"
+            },
+            {
+                "url": "assets/stars-sprites/star - 1.png",
+                "frameConfig": {
+                    "frameWidth": 115,
+                    "frameHeight": 25,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "star - 1"
+            },
+            {
+                "url": "assets/stars-sprites/star - 2.png",
+                "frameConfig": {
+                    "frameWidth": 115,
+                    "frameHeight": 25,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "star - 2"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
