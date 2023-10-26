@@ -1,35 +1,6 @@
 {
     "section1": {
-        "files": [
-            {
-                "url": [
-                    "assets/claudia-blode-1-short-3s.mp4"
-                ],
-                "type": "video",
-                "key": "claudia-blode-1-short-3s"
-            },
-            {
-                "url": [
-                    "assets/claudia-blode-1-short-3s.mp4"
-                ],
-                "type": "video",
-                "key": "claudia-blode-1-short-3s_1"
-            },
-            {
-                "url": [
-                    "assets/pexels.mp4"
-                ],
-                "type": "video",
-                "key": "pexels"
-            },
-            {
-                "url": [
-                    "assets/pexels.mp4"
-                ],
-                "type": "video",
-                "key": "pexels_1"
-            }
-        ]
+        "files": []
     },
     "meta": {
         "app": "Phaser Editor 2D - Asset Pack Editor",

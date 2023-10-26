@@ -7,14 +7,36 @@
                 "key": "advertAnimations"
             },
             {
+                "url": "assets/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/background-texture.png",
+                "type": "image",
+                "key": "background-texture"
+            },
+            {
                 "url": "assets/beauty-hair.png",
                 "type": "image",
                 "key": "beauty-hair"
             },
             {
+                "url": [
+                    "assets/claudia-blonde-2.mp4"
+                ],
+                "type": "video",
+                "key": "claudia-blonde-2"
+            },
+            {
                 "url": "assets/curve.png",
                 "type": "image",
                 "key": "curve"
+            },
+            {
+                "url": "assets/flag-of-brazil.png",
+                "type": "image",
+                "key": "flag-of-brazil"
             },
             {
                 "url": "assets/background-sprites/flower-background.png",
@@ -82,24 +104,64 @@
                 "key": "flower-background - 4"
             },
             {
-                "url": "assets/hair-1.png",
+                "url": "assets/flowers-bg.png",
                 "type": "image",
-                "key": "hair-1"
+                "key": "flowers-bg"
             },
             {
-                "url": "assets/hair-2.png",
+                "url": "assets/gradient.png",
                 "type": "image",
-                "key": "hair-2"
+                "key": "gradient"
             },
             {
-                "url": "assets/hair-3.png",
+                "url": "assets/hair-red.png",
                 "type": "image",
-                "key": "hair-3"
+                "key": "hair-red"
+            },
+            {
+                "url": "assets/hair1-hd.png",
+                "type": "image",
+                "key": "hair1-hd"
+            },
+            {
+                "url": "assets/hair2-hd.png",
+                "type": "image",
+                "key": "hair2-hd"
+            },
+            {
+                "url": "assets/hair4-hd.png",
+                "type": "image",
+                "key": "hair4-hd"
+            },
+            {
+                "url": "assets/hari3-hd.png",
+                "type": "image",
+                "key": "hari3-hd"
             },
             {
                 "url": "assets/home-service.png",
                 "type": "image",
                 "key": "home-service"
+            },
+            {
+                "url": "assets/jack.png",
+                "type": "image",
+                "key": "jack"
+            },
+            {
+                "url": "assets/lips-stick.png",
+                "type": "image",
+                "key": "lips-stick"
+            },
+            {
+                "url": "assets/lipstick.png",
+                "type": "image",
+                "key": "lipstick"
+            },
+            {
+                "url": "assets/mirro-bg.png",
+                "type": "image",
+                "key": "mirro-bg"
             },
             {
                 "url": "assets/name-animation-sprites/nome - 00.png",
@@ -427,6 +489,52 @@
                 "key": "nome11"
             },
             {
+                "url": "assets/orange-balloon.png",
+                "type": "image",
+                "key": "orange-balloon"
+            },
+            {
+                "url": "assets/scotland-flag.png",
+                "type": "image",
+                "key": "scotland-flag"
+            },
+            {
+                "url": "assets/slash_01.png",
+                "frameConfig": {
+                    "frameWidth": 512,
+                    "frameHeight": 512,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "slash_01"
+            },
+            {
+                "url": "assets/slash_02.png",
+                "frameConfig": {
+                    "frameWidth": 512,
+                    "frameHeight": 512,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "slash_02"
+            },
+            {
+                "url": "assets/slashAnimations.json",
+                "type": "animation",
+                "key": "slashAnimations"
+            },
+            {
+                "url": "assets/spark_04.png",
+                "type": "image",
+                "key": "spark_04"
+            },
+            {
                 "url": "assets/stars-sprites/star.png",
                 "frameConfig": {
                     "frameWidth": 115,
@@ -464,6 +572,11 @@
                 },
                 "type": "spritesheet",
                 "key": "star - 2"
+            },
+            {
+                "url": "assets/top-gradient.png",
+                "type": "image",
+                "key": "top-gradient"
             }
         ]
     },
@@ -472,6 +585,6 @@
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
         "version": 2,
-        "showAllFilesInBlocks": false
+        "showAllFilesInBlocks": true
     }
 }

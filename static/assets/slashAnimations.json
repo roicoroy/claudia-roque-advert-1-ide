@@ -1,0 +1,37 @@
+{
+    "anims": [
+        {
+            "key": "SlashAnimation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "slash_02",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "slash_01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1.8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "yoyo": true,
+            "showBeforeDelay": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

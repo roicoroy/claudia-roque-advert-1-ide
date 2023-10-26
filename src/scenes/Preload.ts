@@ -51,7 +51,7 @@ export default class Preload extends Phaser.Scene {
 	preload() {
 
 		this.editorCreate();
-
+		// @ts-ignore
 		this.load.pack("asset-pack", assetPackUrl);
 	}
 
@@ -70,7 +70,7 @@ export default class Preload extends Phaser.Scene {
 			}
 		}
 
-		this.scene.start("AdvertScene");
+		this.scene.start("VideoIntroScene");
 	}
 
 	/* END-USER-CODE */

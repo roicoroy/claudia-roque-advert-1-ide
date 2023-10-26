@@ -1,0 +1,257 @@
+{
+    "id": "a092ad8b-6aa1-402f-ad61-552e1c6caf9a",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ShineScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 390,
+        "borderHeight": 220
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a602747c-1e43-4edb-ad1e-4f587a5a4f27",
+            "label": "mirro_bg",
+            "texture": {
+                "key": "mirro-bg"
+            },
+            "x": 197,
+            "y": -56,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3f9ef12b-0556-438e-a54f-e71e746d1276",
+            "label": "spark_04",
+            "texture": {
+                "key": "spark_04"
+            },
+            "x": 436,
+            "y": -5,
+            "scaleX": 0.5948994577015478,
+            "scaleY": 0.43767445774129865,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "18bd81da-dd2f-4330-9772-510c7fb5b897",
+            "label": "flowers_bg",
+            "scope": "CLASS",
+            "texture": {
+                "key": "flowers-bg"
+            },
+            "x": 391,
+            "scaleX": 0.4,
+            "scaleY": 0.4,
+            "originX": 1,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d9935c21-f5b4-4865-9646-66fedb416247",
+            "label": "hari3_hd",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hari3-hd"
+            },
+            "x": 302,
+            "y": 118,
+            "scaleX": 0.196,
+            "scaleY": 0.196
+        },
+        {
+            "type": "Rectangle",
+            "id": "f9794a40-e99d-40db-8e1e-aaf0f6d07b9d",
+            "label": "rectangle_1",
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#000000",
+            "width": 235,
+            "height": 221
+        },
+        {
+            "type": "Text",
+            "id": "6cf64bf5-caca-4ab5-b121-0641610d9c86",
+            "label": "text_2",
+            "x": 18,
+            "y": 16,
+            "text": "Night Out?",
+            "fontFamily": "Bangers",
+            "fontSize": "22px"
+        },
+        {
+            "type": "Text",
+            "id": "ce7a96bb-0f87-434a-956a-64f140d11add",
+            "label": "text_4",
+            "x": 21,
+            "y": 195,
+            "text": "+7802882163 - Fraserburgh - UK",
+            "fontFamily": "Bangers"
+        },
+        {
+            "type": "Layer",
+            "id": "22d33688-b7af-42c1-a927-db09337b8242",
+            "label": "LogoLayer",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "814dc87e-6eef-418c-af1f-f7d39c316437",
+                    "label": "text_1",
+                    "scope": "CLASS",
+                    "x": 13,
+                    "y": 39,
+                    "text": "Claudia",
+                    "fontFamily": "Bangers",
+                    "fontSize": "50px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "039466f0-58bc-4795-9098-d97de2101c0e",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "x": 85,
+                    "y": 81,
+                    "text": "Roque",
+                    "fontFamily": "Bangers",
+                    "fontSize": "72px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "47ffae51-4673-4473-98ff-4b122ddedcc6",
+                    "label": "lips_stick",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "lips-stick"
+                    },
+                    "x": 164,
+                    "y": 50,
+                    "scaleX": 0.08,
+                    "scaleY": 0.08,
+                    "angle": -12.000000000000002,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "95faff4f-78e4-4f50-96d4-7e54507f5fc5",
+                    "label": "lipstick",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "lipstick"
+                    },
+                    "x": 198,
+                    "y": 15,
+                    "scaleX": 0.030279586106219378,
+                    "scaleY": 0.030279586106219378,
+                    "angle": 38,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "6cea0b72-66ed-4c89-90dc-c1cad08af437",
+                    "label": "lipstick_1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "lipstick"
+                    },
+                    "x": 207,
+                    "y": 41,
+                    "scaleX": 0.030279586106219378,
+                    "scaleY": 0.030279586106219378,
+                    "angle": 38,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "53f3a50e-d679-44e7-b20c-17fca6a81eed",
+                    "label": "lipstick_2",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "lipstick"
+                    },
+                    "x": 219,
+                    "y": 8,
+                    "scaleX": 0.030279586106219378,
+                    "scaleY": 0.030279586106219378,
+                    "angle": 38,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "bf811d9c-b4ee-4e10-9b06-1b44ff61538f",
+            "label": "flag_of_brazil",
+            "texture": {
+                "key": "flag-of-brazil"
+            },
+            "x": 388,
+            "y": 216,
+            "scaleX": 0.02,
+            "scaleY": 0.02,
+            "originX": 1,
+            "originY": 1
+        },
+        {
+            "type": "Text",
+            "id": "44db2c57-7525-4fe2-af68-9e970a9ceca9",
+            "label": "text_3",
+            "x": 38,
+            "y": 156,
+            "text": "Hair & Beauty",
+            "fontFamily": "Bangers",
+            "fontSize": "32px"
+        },
+        {
+            "type": "Sprite",
+            "id": "400a8276-89c1-49e9-97ee-727aec0ddf3e",
+            "label": "slash_010",
+            "scope": "CLASS",
+            "texture": {
+                "key": "slash_01",
+                "frame": 0
+            },
+            "x": 157,
+            "y": 22,
+            "scaleX": 0.098,
+            "scaleY": 0.098,
+            "angle": 59.99999999999999
+        },
+        {
+            "type": "Image",
+            "id": "645b0fbd-cc6c-4943-a70e-781198b7e928",
+            "label": "jack",
+            "texture": {
+                "key": "jack"
+            },
+            "x": 42,
+            "y": 123,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

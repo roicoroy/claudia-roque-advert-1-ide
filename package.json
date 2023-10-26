@@ -13,9 +13,14 @@
   "author": "Phaser Editor 2D <developers@phasereditor2d.com> (https://phasereditor2d.com/)",
   "license": "MIT",
   "dependencies": {
-    "phaser": "^3.60.0"
+    "@capacitor/cli": "^5.5.0",
+    "@capacitor/ios": "^5.5.0",
+    "parallax-js": "^3.1.0",
+    "phaser": "^3.60.0",
+    "webfontloader": "^1.6.28"
   },
   "devDependencies": {
+    "@types/parallax-js": "^3.1.2",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^8.1.0",
     "html-webpack-plugin": "^5.3.1",

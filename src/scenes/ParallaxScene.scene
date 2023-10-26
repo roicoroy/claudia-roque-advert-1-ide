@@ -1,0 +1,49 @@
+{
+    "id": "23bcdd47-cc7c-4f5e-aa20-994f262f4de6",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ParallaxScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 390,
+        "borderHeight": 844
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "0496620a-f4e5-4a5e-aca9-799c58fc03aa",
+            "label": "text_1",
+            "scope": "CLASS",
+            "x": 48,
+            "y": 46,
+            "text": "New text",
+            "fontSize": "32px",
+            "color": "#0f56ffff"
+        },
+        {
+            "type": "Image",
+            "id": "017792a9-7693-46ad-adb1-aaec6d0d30eb",
+            "label": "flag_of_brazil",
+            "scope": "CLASS",
+            "texture": {
+                "key": "flag-of-brazil"
+            },
+            "x": 189.99999850988388,
+            "y": 147.00000104308128,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "originX": 0,
+            "originY": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

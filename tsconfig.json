@@ -10,10 +10,16 @@
 		"allowSyntheticDefaultImports": true,
 		"sourceMap": true,
 		"baseUrl": "./src",
+		"allowJs": true,
+		"useDefineForClassFields": false,
+		"resolveJsonModule": true,
+		
 		"paths": {
-		  "~/*": ["./*"]
+			"~/*": [
+				"./*"
+			]
 		},
-        "outDir": "./dist",
+		"outDir": "./dist",
 		"types": [
 			"phaser"
 		]

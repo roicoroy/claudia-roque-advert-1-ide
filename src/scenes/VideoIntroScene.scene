@@ -1,0 +1,204 @@
+{
+    "id": "dfd328fc-ab62-486b-93ce-120abca68505",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "VideoIntroScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 390,
+        "borderHeight": 844
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "647bcfd8-8e37-4f54-a507-d88fcdbd59a3",
+            "label": "background",
+            "texture": {
+                "key": "background"
+            },
+            "originX": 0,
+            "originY": 0,
+            "alpha": 0.9,
+            "alphaTopLeft": 0.9,
+            "alphaTopRight": 0.9,
+            "alphaBottomLeft": 0.9,
+            "alphaBottomRight": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "51fd0018-70fd-4c86-b9f1-5a5a0d4c632b",
+            "label": "mirro_bg",
+            "texture": {
+                "key": "mirro-bg"
+            },
+            "scaleY": 1.519113321693877,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "80a12f30-b34f-4aaf-83e7-5dbb505cd0b1",
+            "label": "hair2_hd",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hair2-hd"
+            },
+            "x": -21,
+            "y": 268,
+            "scaleX": 0.5583839353249043,
+            "scaleY": 0.5583839353249043,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "fbd0f2a9-f138-4ce8-b20d-68eb73780542",
+            "label": "hair3_hd",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hari3-hd"
+            },
+            "x": -27,
+            "y": 301,
+            "scaleX": 0.5367917759871222,
+            "scaleY": 0.5367917759871222,
+            "originX": 0,
+            "originY": 0,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Image",
+            "id": "1cf875c3-276c-409a-917d-27e05aebab62",
+            "label": "hair4_hd",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hair4-hd"
+            },
+            "x": 4,
+            "y": 327,
+            "scaleX": 0.5002102380655717,
+            "scaleY": 0.5002102380655717,
+            "originX": 0,
+            "originY": 0,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Text",
+            "id": "475b573d-ebf6-4a18-b6e5-9ff369f68f67",
+            "label": "text",
+            "scope": "CLASS",
+            "x": 10,
+            "y": 15,
+            "text": "Claudia",
+            "fontFamily": "Dancing Script",
+            "fontSize": "98px"
+        },
+        {
+            "type": "Text",
+            "id": "788be27c-f7d2-44b3-9d6f-927089470adf",
+            "label": "text_1",
+            "scope": "CLASS",
+            "x": 168,
+            "y": 100,
+            "text": "Roque",
+            "fontFamily": "Dancing Script",
+            "fontSize": "96px"
+        },
+        {
+            "type": "Text",
+            "id": "5d83cfa8-0b10-4b36-950b-fe0e509759f2",
+            "label": "text_2",
+            "x": 8.5,
+            "y": 253,
+            "text": "+7510963961 - Fraserburgh, UK",
+            "fontFamily": "Tahoma",
+            "fontSize": "26px"
+        },
+        {
+            "type": "Image",
+            "id": "dd3425e8-aac5-487f-b829-91b22941f4f8",
+            "label": "flowers_bg",
+            "texture": {
+                "key": "flowers-bg"
+            },
+            "y": 305,
+            "scaleY": 0.973138119372924,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Text",
+            "id": "92f1431f-481f-4068-9fb2-1ba9015f6ada",
+            "label": "text_3",
+            "x": 67.5,
+            "y": 202,
+            "text": "Hair and Beauty",
+            "fontFamily": "Tahoma",
+            "fontSize": "36px"
+        },
+        {
+            "type": "Image",
+            "id": "9b6d942e-31dd-4e77-b3f6-4c4d18fa3e57",
+            "label": "brazil0",
+            "texture": {
+                "key": "brazil",
+                "frame": 0
+            },
+            "x": 332,
+            "y": 9,
+            "scaleX": 0.03,
+            "scaleY": 0.03,
+            "angle": 21,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "1da9aaf4-31f6-4f18-be3c-1f2e4b6775dc",
+            "label": "flag_of_brazil",
+            "texture": {
+                "key": "flag-of-brazil"
+            },
+            "x": 387,
+            "y": 9,
+            "scaleX": 0.06,
+            "scaleY": 0.06,
+            "originX": 1,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "dafd4a89-31a2-4bf6-b491-59b5a637f4f5",
+            "label": "scotland_flag",
+            "texture": {
+                "key": "scotland-flag"
+            },
+            "x": 387,
+            "y": 56,
+            "scaleX": 0.06,
+            "scaleY": 0.06,
+            "originX": 1,
+            "originY": 0,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

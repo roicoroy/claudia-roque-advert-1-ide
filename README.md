@@ -1,3 +1,22 @@
+yellow = #fbff00
+blue = #0039d3
+orange = #CF8002
+brasil-green = #009c3b
+White = 0xffffff
+Black = 0x000000
+A "perfect" Blue = 0x0000ff
+A "prefect" Red = 0xff0000
+A "middle" Gray = 0x7a7a7a
+Aqua = 0x00ffff
+Gold = 0xffd700
+Indigo = 0x4b0082
+
+red = 0xff1717
+
+
+
+
+
 # Webpack + TypeScript project template for Phaser Editor 2D
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-webpack)

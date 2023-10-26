@@ -84,45 +84,6 @@
             },
             "x": 118,
             "y": 281
-        },
-        {
-            "type": "Image",
-            "id": "4d36eb75-f5b4-4f27-953e-a2458785aa14",
-            "label": "hair_3",
-            "scope": "CLASS",
-            "texture": {
-                "key": "hair-3"
-            },
-            "x": 327,
-            "y": 111,
-            "scaleX": 1.07,
-            "scaleY": 1.07
-        },
-        {
-            "type": "Image",
-            "id": "8841ef0b-35f5-4ded-add5-b8d08a6fbca3",
-            "label": "hair_2",
-            "scope": "CLASS",
-            "texture": {
-                "key": "hair-2"
-            },
-            "x": 327,
-            "y": 108,
-            "scaleX": 1.09,
-            "scaleY": 1.09
-        },
-        {
-            "type": "Image",
-            "id": "38219561-b45e-43c6-817b-52205d61014d",
-            "label": "hair_1",
-            "scope": "CLASS",
-            "texture": {
-                "key": "hair-1"
-            },
-            "x": 327,
-            "y": 105,
-            "scaleX": 1.09,
-            "scaleY": 1.09
         }
     ],
     "plainObjects": [],

@@ -41,30 +41,12 @@ export default class AdvertScene extends Phaser.Scene {
 		// curve
 		const curve = this.add.image(118, 281, "curve");
 
-		// hair_3
-		const hair_3 = this.add.image(327, 111, "hair-3");
-		hair_3.scaleX = 1.07;
-		hair_3.scaleY = 1.07;
-
-		// hair_2
-		const hair_2 = this.add.image(327, 108, "hair-2");
-		hair_2.scaleX = 1.09;
-		hair_2.scaleY = 1.09;
-
-		// hair_1
-		const hair_1 = this.add.image(326, 105, "hair-1");
-		hair_1.scaleX = 1.09;
-		hair_1.scaleY = 1.09;
-
 		this.flower_background0 = flower_background0;
 		this.nome = nome;
 		this.beauty_hair = beauty_hair;
 		this.star = star;
 		this.home_service = home_service;
 		this.curve = curve;
-		this.hair_3 = hair_3;
-		this.hair_2 = hair_2;
-		this.hair_1 = hair_1;
 
 		this.events.emit("scene-awake");
 	}
@@ -75,9 +57,6 @@ export default class AdvertScene extends Phaser.Scene {
 	private star!: Phaser.GameObjects.Sprite;
 	private home_service!: Phaser.GameObjects.Image;
 	private curve!: Phaser.GameObjects.Image;
-	private hair_3!: Phaser.GameObjects.Image;
-	private hair_2!: Phaser.GameObjects.Image;
-	private hair_1!: Phaser.GameObjects.Image;
 
 	/* START-USER-CODE */
 
@@ -87,100 +66,102 @@ export default class AdvertScene extends Phaser.Scene {
 	}
 	create() {
 
-		this.editorCreate();
+		setTimeout(() => {
+			this.editorCreate();
 
-		const intro = this.add.video(328, 380, 'claudia-blonde-2');
-		intro.setVisible(false);
-		
-		this.flower_background0.play('backgroundAnimation');
-		this.star.play('stars-animation');
-		this.nome.play('fullNameAnimation')
-			.on('animationcomplete', () => {
+			const intro = this.add.video(328, 380, 'claudia-blonde-2');
+			intro.setVisible(false);
+			intro.play();
 
-				this.tweens.add({
-					targets: [this.beauty_hair],
-					duration: 500,
-					x: 84,
-					y: 128,
-					ease: "Sine.easeInOut",
-				}).on('complete', () => {
-					setTimeout(() => {
-						this.tweens.add({
-							targets: [this.hair_1],
-							duration: 750,
-							x: 327,
-							y: 357,
-							ease: "Sine.easeInOut",
-						});
-					}, 1000);
+			this.flower_background0.play('backgroundAnimation');
+			this.star.play('stars-animation');
+			// this.nome.play('fullNameAnimation')
+			// 	.on('animationcomplete', () => {
 
-					setTimeout(() => {
-						this.tweens.add({
-							targets: [this.hair_2],
-							duration: 750,
-							x: 489,
-							y: 107,
-							ease: "Sine.easeInOut",
-						});
-					}, 2500);
+			// 		this.tweens.add({
+			// 			targets: [this.beauty_hair],
+			// 			duration: 500,
+			// 			x: 84,
+			// 			y: 128,
+			// 			ease: "Sine.easeInOut",
+			// 		}).on('complete', () => {
+			// 			setTimeout(() => {
+			// 				this.tweens.add({
+			// 					targets: [this.hair_1],
+			// 					duration: 750,
+			// 					x: 327,
+			// 					y: 357,
+			// 					ease: "Sine.easeInOut",
+			// 				});
+			// 			}, 1000);
 
-					setTimeout(() => {
-						this.tweens.add({
-							targets: [this.hair_3],
-							duration: 750,
-							x: 327,
-							y: -137,
-							ease: "Sine.easeInOut",
-						});
-					}, 3500);
-					
-					intro.setVisible(true);
-					intro.setScale(0.30, 0.30);
+			// 			setTimeout(() => {
+			// 				this.tweens.add({
+			// 					targets: [this.hair_2],
+			// 					duration: 750,
+			// 					x: 489,
+			// 					y: 107,
+			// 					ease: "Sine.easeInOut",
+			// 				});
+			// 			}, 2500);
 
-					setTimeout(() => {
-						intro.play();
-						this.tweens.add({
-							targets: [intro],
-							duration: 750,
-							x: 320,
-							y: 107,
-							ease: "Sine.easeInOut",
-						}).on('complete', () => {
-							// setTimeout(() => {
-							// 	intro.stop();
-							// }, 5000);
-							setTimeout(() => {
-								this.scene.start('AdvertScene');
-							}, 7500);
-						});
-					}, 3400);
-				});;
+			// 			setTimeout(() => {
+			// 				this.tweens.add({
+			// 					targets: [this.hair_3],
+			// 					duration: 750,
+			// 					x: 327,
+			// 					y: -137,
+			// 					ease: "Sine.easeInOut",
+			// 				});
+			// 			}, 3500);
 
-				this.tweens.add({
-					targets: [this.star],
-					duration: 500,
-					x: 118,
-					y: 160,
-					ease: "Sine.easeInOut",
-				});
+			// 			intro.setVisible(true);
+			// 			intro.setScale(0.30, 0.30);
 
-				this.tweens.add({
-					targets: [this.home_service],
-					duration: 500,
-					x: 118,
-					y: 185,
-					ease: "Sine.easeInOut",
-				});
+			// 			setTimeout(() => {
+			// 				this.tweens.add({
+			// 					targets: [intro],
+			// 					duration: 750,
+			// 					x: 320,
+			// 					y: 107,
+			// 					ease: "Sine.easeInOut",
+			// 				}).on('complete', () => {
+			// 					// setTimeout(() => {
+			// 					// 	intro.stop();
+			// 					// }, 5000);
+			// 					setTimeout(() => {
+			// 						this.scene.start('AdvertScene');
+			// 					}, 7500);
+			// 				});
+			// 			}, 3400);
+			// 		});;
 
-				this.tweens.add({
-					targets: [this.curve],
-					duration: 500,
-					x: 118,
-					y: 200,
-					ease: "Sine.easeInOut",
-				});
-				//
-			});
+			// 		this.tweens.add({
+			// 			targets: [this.star],
+			// 			duration: 500,
+			// 			x: 118,
+			// 			y: 160,
+			// 			ease: "Sine.easeInOut",
+			// 		});
+
+			// 		this.tweens.add({
+			// 			targets: [this.home_service],
+			// 			duration: 500,
+			// 			x: 118,
+			// 			y: 185,
+			// 			ease: "Sine.easeInOut",
+			// 		});
+
+			// 		this.tweens.add({
+			// 			targets: [this.curve],
+			// 			duration: 500,
+			// 			x: 118,
+			// 			y: 200,
+			// 			ease: "Sine.easeInOut",
+			// 		});
+			// 		//
+			// 	});
+		}, 500);
 	}
 
 	/* END-USER-CODE */
